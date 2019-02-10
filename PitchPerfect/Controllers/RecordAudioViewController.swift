@@ -11,17 +11,29 @@ class RecordAudioViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        stopRecordingButton.isEnabled = false
+        readyToRecord()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
+    
+    // Update UI to enable recording
+    func readyToRecord() {
+        recordingLabel.text = "Tap to Record!"
+        recordButton.isEnabled = true
+        stopRecordingButton.isEnabled = false
+    }
+    
+    // Update UI when recording is in progress
+    func recordingInProgress() {
+        recordingLabel.text = "Recording in Progress..."
+        recordButton.isEnabled = false
+        stopRecordingButton.isEnabled = true
+    }
 
     @IBAction func recordAudio(_ sender: Any) {
-        recordingLabel.text = "Recording in Progress..."
-        stopRecordingButton.isEnabled = true
-        recordButton.isEnabled = false
+        recordingInProgress()
         
         // Set up local directory and .wav container
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
@@ -42,9 +54,7 @@ class RecordAudioViewController: UIViewController {
     }
     
     @IBAction func stopRecording(_ sender: Any) {
-        recordingLabel.text = "Tap to Record!"
-        recordButton.isEnabled = true
-        stopRecordingButton.isEnabled = false
+        readyToRecord()
         
         // Shut down recorder and session
         audioRecorder.stop()

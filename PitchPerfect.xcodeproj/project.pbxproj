@@ -14,7 +14,8 @@
 		940D067A22064CCA003DC82A /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D067922064CCA003DC82A /* PitchPerfectTests.swift */; };
 		940D068522064CCA003DC82A /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D068422064CCA003DC82A /* PitchPerfectUITests.swift */; };
 		940D06932206AE16003DC82A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940D06922206AE16003DC82A /* Assets.xcassets */; };
-		940D06952210C28B003DC82A /* PlayAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D06942210C28B003DC82A /* PlayAudioViewController.swift */; };
+		940D069D22110D50003DC82A /* PlayAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D069B22110D50003DC82A /* PlayAudioViewController.swift */; };
+		940D069E22110D50003DC82A /* PlayAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940D069C22110D50003DC82A /* PlayAudioViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		940D068422064CCA003DC82A /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		940D068622064CCA003DC82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940D06922206AE16003DC82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		940D06942210C28B003DC82A /* PlayAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAudioViewController.swift; sourceTree = "<group>"; };
+		940D069B22110D50003DC82A /* PlayAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAudioViewController.swift; sourceTree = "<group>"; };
+		940D069C22110D50003DC82A /* PlayAudioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayAudioViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +148,9 @@
 		940D06982210D733003DC82A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				940D069B22110D50003DC82A /* PlayAudioViewController.swift */,
+				940D069C22110D50003DC82A /* PlayAudioViewController.xib */,
 				940D066622064CC8003DC82A /* RecordAudioViewController.swift */,
-				940D06942210C28B003DC82A /* PlayAudioViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				940D066F22064CCA003DC82A /* LaunchScreen.storyboard in Resources */,
 				940D06932206AE16003DC82A /* Assets.xcassets in Resources */,
 				940D066A22064CC8003DC82A /* Main.storyboard in Resources */,
+				940D069E22110D50003DC82A /* PlayAudioViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +289,7 @@
 			files = (
 				940D066722064CC8003DC82A /* RecordAudioViewController.swift in Sources */,
 				940D066522064CC8003DC82A /* AppDelegate.swift in Sources */,
-				940D06952210C28B003DC82A /* PlayAudioViewController.swift in Sources */,
+				940D069D22110D50003DC82A /* PlayAudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

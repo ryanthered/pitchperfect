@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="-1098" y="81"/>
         </scene>
-        <!--Record Audio View Controller-->
+        <!--Record Sounds View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="RecordAudioViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="-264.375" y="79.225352112676063"/>
         </scene>
-        <!--Play Audio View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="wg2-Q4-wWG">
             <objects>
-                <viewController id="fqr-qh-LS8" customClass="PlayAudioViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fqr-qh-LS8" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pCa-FN-OeD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -41,5 +41,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Pitch Perfect allows the user to record audio and then play it back with one of six different effects applied.</string>
 </dict>
 </plist>

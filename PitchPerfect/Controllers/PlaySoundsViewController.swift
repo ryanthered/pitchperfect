@@ -19,7 +19,6 @@ class PlaySoundsViewController: UIViewController {
     
     enum ButtonType: Int { case slow = 0, fast, chipmunk, vader, echo, reverb }
     
-    
     @IBAction func playSoundForButton(_ sender: UIButton) {
         switch(ButtonType(rawValue: sender.tag)!) {
         case .slow:
@@ -45,5 +44,9 @@ class PlaySoundsViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         configureUI(.notPlaying)
+    }
+    
+    override func viewDidLoad() {
+        setupAudio()
     }
 }

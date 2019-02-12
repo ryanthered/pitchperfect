@@ -1,3 +1,10 @@
+//
+//  RecordSoundsViewController.swift
+//  PitchPerfect
+//
+//  Created by Ryan McPherson on 2/2/19.
+//  
+
 import AVFoundation
 import UIKit
 
@@ -48,7 +55,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
             print("Recording was unsuccessful")
         }
     }
-    
     
     // MARK: - Overrides
     override func viewDidLoad() {

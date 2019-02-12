@@ -3,7 +3,6 @@
 //  PitchPerfect
 //
 //  Created by Ryan McPherson on 2/2/19.
-//  Copyright © 2019 R3 Software. All rights reserved.
 //
 
 import UIKit

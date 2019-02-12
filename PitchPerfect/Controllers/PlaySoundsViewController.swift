@@ -1,3 +1,10 @@
+//
+//  PlaySoundsViewController.swift
+//  PitchPerfect
+//
+//  Created by Ryan McPherson on 2/2/19.
+//
+
 import AVFoundation
 import UIKit
 
@@ -19,6 +26,7 @@ class PlaySoundsViewController: UIViewController {
     
     enum ButtonType: Int { case slow = 0, fast, chipmunk, vader, echo, reverb }
     
+    // MARK: - IBActions
     @IBAction func playSoundForButton(_ sender: UIButton) {
         switch(ButtonType(rawValue: sender.tag)!) {
         case .slow:
@@ -42,6 +50,7 @@ class PlaySoundsViewController: UIViewController {
         stopAudio()
     }
     
+    // MARK: - Overrides
     override func viewWillAppear(_ animated: Bool) {
         configureUI(.notPlaying)
     }

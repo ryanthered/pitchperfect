@@ -35,14 +35,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPS-hG-4XD">
-                                <rect key="frame" x="82.5" y="238.5" width="155" height="155"/>
+                                <rect key="frame" x="82.5" y="206.5" width="155" height="155"/>
                                 <state key="normal" image="Record"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PCd-J6-xcq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0b-Ax-jcr">
-                                <rect key="frame" x="128" y="441" width="64" height="64"/>
+                                <rect key="frame" x="128" y="488" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="6hL-gA-Mtd"/>
                                     <constraint firstAttribute="height" constant="64" id="hrZ-tA-gif"/>
@@ -53,7 +53,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="9wl-WI-N27">
-                                <rect key="frame" x="94.5" y="401.5" width="131" height="23.5"/>
+                                <rect key="frame" x="94.5" y="369" width="131" height="23.5"/>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -62,11 +62,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9wl-WI-N27" firstAttribute="centerX" secondItem="jPS-hG-4XD" secondAttribute="centerX" id="KGy-Yk-zNv"/>
-                            <constraint firstItem="9wl-WI-N27" firstAttribute="top" secondItem="jPS-hG-4XD" secondAttribute="bottom" constant="8" id="POX-K6-BD8"/>
-                            <constraint firstItem="jPS-hG-4XD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="PZf-Jv-vE0"/>
+                            <constraint firstItem="jPS-hG-4XD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-32" id="Q3U-sa-uAU"/>
                             <constraint firstItem="T0b-Ax-jcr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TtX-Fx-kfr"/>
-                            <constraint firstItem="9wl-WI-N27" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="V5e-U3-afK"/>
-                            <constraint firstItem="T0b-Ax-jcr" firstAttribute="top" secondItem="9wl-WI-N27" secondAttribute="bottom" constant="16" id="eBc-L7-seC"/>
+                            <constraint firstItem="9wl-WI-N27" firstAttribute="top" secondItem="jPS-hG-4XD" secondAttribute="bottom" constant="7.5" id="dUn-gr-EFx"/>
+                            <constraint firstItem="T0b-Ax-jcr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-16" id="iNB-8j-dru"/>
                             <constraint firstItem="jPS-hG-4XD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zjk-bV-18J"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

@@ -143,6 +143,7 @@
 			children = (
 				940D066822064CC8003DC82A /* Main.storyboard */,
 				940D066D22064CCA003DC82A /* LaunchScreen.storyboard */,
+				94E557F22212363A009CB34C /* PlaySoundsViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,7 +151,6 @@
 		940D06982210D733003DC82A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				94E557F22212363A009CB34C /* PlaySoundsViewController.xib */,
 				94E557F32212363A009CB34C /* RecordSoundsViewController.swift */,
 				94E557F022123616009CB34C /* PlaySoundsViewController.swift */,
 				94E557F622123677009CB34C /* PlaySoundsViewController+Audio.swift */,

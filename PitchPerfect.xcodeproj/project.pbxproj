@@ -218,13 +218,16 @@
 				TargetAttributes = {
 					940D066022064CC8003DC82A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 					};
 					940D067422064CCA003DC82A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 						TestTargetID = 940D066022064CC8003DC82A;
 					};
 					940D067F22064CCA003DC82A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 						TestTargetID = 940D066022064CC8003DC82A;
 					};
 				};
@@ -469,7 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.r3software.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -487,7 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.r3software.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -507,7 +510,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.r3software.PitchPerfectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchPerfect.app/PitchPerfect";
 			};
@@ -528,7 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.r3software.PitchPerfectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchPerfect.app/PitchPerfect";
 			};
@@ -548,7 +551,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.r3software.PitchPerfectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PitchPerfect;
 			};
@@ -568,7 +571,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.r3software.PitchPerfectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PitchPerfect;
 			};
